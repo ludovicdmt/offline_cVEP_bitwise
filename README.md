@@ -4,7 +4,7 @@ c-VEP based BCI using CNN for bitwise stimulation decoding
 Python scripts of a Brain Computer Interface (BCI) using c-VEP stimuli to operate a T9 (11 classes). The offline but self-paced classification relies on a CNN to decode the stimulation pattern and then template matching to identify the target. It follows [EEG2Code](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0221909) line of work. The GUI is using Psychopy<sup>3</sup>. The code is not specific to any device as it relies on [LSL](https://github.com/sccn/labstreaminglayer). Only some adjustements should be done regarding the EEG device used, you can find some details in [Example usage](#example-usage) section.
 It was developped in the [Human-Factors department](https://personnel.isae-supaero.fr/neuroergonomie-et-facteurs-humains-dcas?lang=en) of ISAE-Supaero (France) by the team under the supervision of [Frédéric Dehais](https://personnel.isae-supaero.fr/frederic-dehais/).  
 
-The code was used for an experiment in an under-review paper. The associated data are available [here](https://zenodo.org/).
+The code was used for an experiment in an under-review paper. The associated data are available [here](https://zenodo.org/record/7277151).
 
 ## Contents
 
