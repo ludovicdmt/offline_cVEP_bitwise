@@ -32,23 +32,7 @@ git clone https://github.com/ludovicdmt/offline_cVEP_bitwise.git
 cd ${INSTALL_PATH}
 ```
 
-Install conda dependencies and the project with
-
-```bash
-conda env create -f environment.yml
-```
-
-The `pyRiemann` package has to be installed separately using `pip`:
-```bash
-conda activate psychopy
-pip install pyriemann
-```
-
-If the dependencies in `environment.yml` change, update dependencies with
-
-```bash
-conda env update --file environment.yml
-```
+Install the depencies listed above. You probably want to do that inside a conda environement ! 
 
 We used an EEG BrainProduct system to collect data with a native sampling frequency F<sub>s</sub> of 500Hz.
 
